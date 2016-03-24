@@ -71,7 +71,7 @@ Task PublishAsync(object @event);
 that is used to `Publish` events from `async` context. So you can do something like that:
 
 ```csharp
-public class WorkListener : IHandleAsyncEvent<SomeMessage>
+public class AsyncWorkListener : IHandleAsyncEvent<SomeMessage>
 {
   public async Task HandleAsync(SomeMessage message)
   {
