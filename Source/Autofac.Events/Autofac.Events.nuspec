@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/jonstelly/AutofacEvents</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Autofac Events extension to support pub/sub and domain events</description>
-    <releaseNotes>switched to .NET 4.5.1 and ConfigureAwait(false)</releaseNotes>
+    <releaseNotes>Added Task Publish and Handle methods</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>Autofac Domain Events</tags>
   </metadata>
